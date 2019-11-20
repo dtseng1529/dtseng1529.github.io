@@ -1,0 +1,47 @@
+body {
+  background-color: #50514F;
+}
+#namebox {
+  text-align: center;
+  position: relative;
+  top: 30px;
+  bottom: 0px;
+}
+#name {
+  color: #F0E9E9;
+  font-family: Roboto, Arial, sans-serif;
+  font-size:140px;
+}
+.pic {
+  width: 90px;
+  height: 90px;
+  transform: translateY(10px);
+}
+#box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transform: translateY(-30px);
+}
+.child {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  color: #F0E9E9;
+  font-family: Roboto, Arial, sans-serif;
+  font-size:27px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+.text {
+  transform: translateY(-15px);
+  color: #F0E9E9;
+}
+#about{
+  transform: translate(10px, -15px);
+  color: #F0E9E9;
+}
+#projects{
+  transform: translate(-2px, -15px);
+  color: #F0E9E9;
+}
