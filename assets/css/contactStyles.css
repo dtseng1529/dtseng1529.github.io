@@ -1,0 +1,68 @@
+body {
+  background-color: #FED71D;
+  background-image: linear-gradient(180deg, #FEC31D 25%, #EA4E3A 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  height: 100%;
+  overflow: hidden;
+}
+#home{
+  width:70px;
+  height:70px;
+  position: absolute;
+  top: 40px;
+  right: 25px;
+}
+.dog{
+  display: flex;
+  text-align: center;
+  top: 50px;
+}
+#corgi{
+  max-width: 15%;
+  max-height: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(30px);
+}
+#thankbox {
+  text-align: center;
+  position: relative;
+}
+#thanks {
+  color: #F0E9E9;
+  font-family: Roboto, Arial, sans-serif;
+  font-size:125px;
+  transform: translateY(-90px);
+}
+#contactbox{
+  text-align: center;
+  position: relative;
+}
+#contact{
+  color: #F0E9E9;
+  font-family: Roboto, Arial, sans-serif;
+  font-size:80px;
+    transform: translateY(-230px);
+}
+#box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transform: translateY(-30px);
+}
+.pic {
+  width: 90px;
+  height: 90px;
+  transform: translateY(-270px);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.child {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
